@@ -1,0 +1,101 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right,#01022d, #000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* background-color: yellow; */
+    background-image: linear-gradient(to right, #01022de5 30%, rgba(0, 0, 0, 0.544)) , url(../vat.png);
+    width: 90%;
+    height: 640px;
+    background-position: center;
+
+ 
+}
+
+.container:hover {
+
+    background-image: linear-gradient(to right, #01022de5 30%, transparent) , url(../vat.png);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo  {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+
+header ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+.content {
+    /* background-color: yellow; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 50%;
+    /* justify-content: center; */
+    /* height: 300px; */
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.container h2 {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.container p {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    width: 400px;
+    padding: 20px 0px;
+}
+
+.content button {
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+
+.content button:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
